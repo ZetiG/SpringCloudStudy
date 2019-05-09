@@ -5,6 +5,9 @@ import lombok.Data;
 
 import java.io.Serializable;
 
+/**
+ * 对应数据库test01
+ */
 @Data
 @TableName("tb_user")
 public class User implements Serializable {

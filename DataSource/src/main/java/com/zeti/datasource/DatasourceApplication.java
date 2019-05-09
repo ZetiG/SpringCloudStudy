@@ -5,7 +5,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
-@MapperScan(basePackages = "com.zeti.datasource")
 @SpringBootApplication
 @EnableEurekaClient
 public class DatasourceApplication {

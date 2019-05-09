@@ -28,7 +28,7 @@ import java.util.Map;
  */
 @Configuration
 @EnableTransactionManagement
-@MapperScan(basePackages = "com.zeti.datasource.mapper01")
+@MapperScan(basePackages = "com.zeti.datasource")
 public class DataSourceConfig {
 
 

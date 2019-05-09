@@ -5,6 +5,9 @@ import lombok.Data;
 
 import java.io.Serializable;
 
+/**
+ * 对应数据库test02
+ */
 @Data
 @TableName("t_type")
 public class Type implements Serializable {

@@ -6,6 +6,9 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
+/**
+ * 基于aop动态的选择数据源
+ */
 @Aspect
 @Component
 public class DataSourceAspect {
