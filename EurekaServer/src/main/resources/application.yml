@@ -1,0 +1,20 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: spring-cloud-server
+  #security配置登录账户密码
+  security:
+    user:
+      name: admin
+      password: admin
+
+eureka:
+  client:
+    register-with-eureka: false #是否要注册到Eureka Server实例
+    fetch-registry: false #是否要从Eureka Server实例获取数据
+    service-url:
+      #配置登录才能访问Eureka
+      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@localhsot:${server.port}/eureka/
+#      defaultZone: http://localhost:${server.port}/eureka/
