@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/EurekaServer/pom.xml" />
         <option value="$PROJECT_DIR$/ServerRibbon/pom.xml" />
         <option value="$PROJECT_DIR$/DataSource/pom.xml" />
+        <option value="$PROJECT_DIR$/ServerRabbitMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/ServerEmail/pom.xml" />
       </list>
     </option>
   </component>

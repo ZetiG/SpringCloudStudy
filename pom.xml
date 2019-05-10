@@ -14,6 +14,7 @@
         <module>EurekaServer</module>
         <module>ServerRibbon</module>
         <module>DataSource</module>
+        <module>ServerEmail</module>
     </modules>
 
 </project>

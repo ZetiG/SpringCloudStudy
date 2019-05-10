@@ -1,0 +1,13 @@
+server:
+  port: 8005
+
+spring:
+  mail:
+    host: smtp.163.com #邮箱服务器地址
+    username: zmk95511@163.com
+    password: 382410zmk #邮箱授权码
+    default-encoding: UTF-8
+
+mail:
+  fromMail:
+    addr: zmk95511@163.com

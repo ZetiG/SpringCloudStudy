@@ -9,7 +9,9 @@
         <module name="DataSource" />
         <module name="EurekaServer" />
         <module name="ServerCustomer" />
+        <module name="ServerEmail" />
         <module name="ServerProvider" />
+        <module name="ServerRabbitMQ" />
         <module name="ServerRibbon" />
         <module name="SpringCloudStudy" />
       </profile>
@@ -20,7 +22,9 @@
       <module name="DataSource" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
       <module name="ServerCustomer" options="-parameters" />
+      <module name="ServerEmail" options="-parameters" />
       <module name="ServerProvider" options="-parameters" />
+      <module name="ServerRabbitMQ" options="-parameters" />
       <module name="ServerRibbon" options="-parameters" />
     </option>
   </component>
